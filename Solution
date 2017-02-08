@@ -1,0 +1,6 @@
+1-> Null Pointer Exception is a runtime exception. In Java, Null Pointer Exception is thrown when an application attempts to use an object reference that has the null value.
+2->If you are trying to modify the UI from background thread (usually from onPostExecute() of AsyncTask) and if the activity enters finishing stage i.e.) explicitly calling finish(), user pressing home or back button or activity clean up made by Android then you get this error.
+3->Thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
+4-> If the activity tag has been not specified in manifest file , then we get this error.
+5-> The old method is deprecated starting in API 23, and the new method only exists in API 23+, then that method would not be available and you'd get a NoSuchMethodError
+
